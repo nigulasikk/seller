@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-import Contact from '@/pages/contact/contact'
-import User from '@/pages/user/user'
-import ShoppingCart from '@/pages/shoppingCart/shoppingCart'
-
 Vue.use(Router)
+
+const Hello = resolve => require(['@/components/Hello'], resolve)
+const Contact = resolve => require(['@/pages/contact/contact'], resolve)
+const User = resolve => require(['@/pages/user/user'], resolve)
+const ShoppingCart = resolve => require(['@/pages/shoppingCart/shoppingCart'], resolve)
 
 export default new Router({
   routes: [
