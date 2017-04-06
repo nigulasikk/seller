@@ -1,6 +1,8 @@
 <template>
-  <div>
+  <div class="msg">
       {{msg}}
+      <span class="icon-font">&#xe6a9;</span>
+      
   </div>
 </template>
 
@@ -17,5 +19,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 </style>

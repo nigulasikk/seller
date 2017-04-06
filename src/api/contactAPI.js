@@ -3,7 +3,7 @@ import Config from '@/common/domain'
 
 const contactApi = {
   /**
-   * 个人详情
+   * 个人详情  (demo)
    * @param  {[type]} params [description]
    * @return {[type]}        [description]
    */
@@ -12,7 +12,7 @@ const contactApi = {
     return HttpUtil.get(postUrl, params)
   },
   /**
-   * 查看交易详情 表格
+   * 查看交易详情 表格 (demo)
    * @return {[type]} [description]
    */
   getDealDetailList (params) {
