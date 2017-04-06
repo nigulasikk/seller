@@ -1176,9 +1176,9 @@ chokidar@^1.4.1, chokidar@^1.4.3:
   optionalDependencies:
     fsevents "^1.0.0"
 
-chromedriver@^2.27.2:
-  version "2.28.0"
-  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-2.28.0.tgz#ea0c383621dd27db340c612b85fe39414c16ec79"
+chromedriver@2.27.2:
+  version "2.27.2"
+  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-2.27.2.tgz#fd8ee03e6f8dde47d83b951bf99ea268538179c3"
   dependencies:
     adm-zip "^0.4.7"
     kew "^0.7.0"
@@ -5098,9 +5098,9 @@ sax@~1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.2.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"
 
-selenium-server@^3.0.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/selenium-server/-/selenium-server-3.3.1.tgz#0267380851601342d2bf0cbb89a57e893e8e7ba7"
+selenium-server@2.53.1:
+  version "2.53.1"
+  resolved "https://registry.yarnpkg.com/selenium-server/-/selenium-server-2.53.1.tgz#d681528812f3c2e0531a6b7e613e23bb02cce8a6"
 
 "semver@2 || 3 || 4 || 5", semver@^5.3.0:
   version "5.3.0"

@@ -9,11 +9,16 @@ module.exports = {
     const devServer = browser.globals.devServerURL
 
     browser
-      .url(devServer)
-      .waitForElementVisible('#app', 5000)
-      .assert.elementPresent('.hello')
-      .assert.containsText('h1', 'Welcome to Your Vue.js App')
-      .assert.elementCount('img', 1)
+      .url(devServer+'/#/shoppingCart')
+      .pause(1000)
+      .click('#products-list li:nth-of-type(1) .add-to-cart')
+      .click('#products-list li:nth-of-type(1) .add-to-cart')
+      .pause(1000)
+      .click('#products-list li:nth-of-type(2) .add-to-cart')
+      .pause(1000)
+      .click('#products-list li:nth-of-type(3) .add-to-cart')
+      .pause(1000)
+      .assert.containsText('#total', '1031')
       .end()
   }
 }

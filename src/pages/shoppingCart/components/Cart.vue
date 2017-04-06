@@ -7,7 +7,8 @@
         {{ p.title }} - {{ p.price }} x {{ p.quantity }}
       </li>
     </ul>
-    <p>Total: {{ total  }}</p>
+    <p >Total: <span id="total">{{ total  }}</span>
+    </p>
    
   </div>
 </template>
