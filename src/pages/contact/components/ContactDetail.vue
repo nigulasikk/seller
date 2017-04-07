@@ -2,13 +2,27 @@
   <div class="msg">
       {{msg}}
       <span class="icon-font">&#xe6a9;</span>
-     
+      <hr>
+      <el-button type="primary" @click="getContactsString">vuex请求数据</el-button>
+     contactsString from vuex:{{contactsString}}
+     <br>
+     <br>
   </div>
 </template>
 
 <script>
+import { mapGetters, mapActions } from 'vuex'
+
 export default {
-  name: 'hello',
+  name: 'contactDetail',
+  computed: {
+    ...mapGetters({
+      contactsString: 'contactsString'
+    })
+  },
+  methods: mapActions([
+    'getContactsString'
+  ]),
   data () {
     return {
       msg: '联系子页面内容'

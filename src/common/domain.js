@@ -7,7 +7,7 @@ const configPath = {
    * 是否使用mock数据
    * @type {Boolean}
    */
-  mock: false
+  mock: true
 }
 
 export default configPath
