@@ -7,6 +7,7 @@
     <product-list></product-list>
     <hr>
     <cart></cart>
+    <img src="../../assets/demo/vuex.png">
   </div>
 </template>
 <script>
