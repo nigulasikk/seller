@@ -1,5 +1,6 @@
 <template>
   <div>
+    <nav-bar></nav-bar>
     <h1>Shopping Cart Example</h1>
     <hr>
     <h2>Products</h2>
@@ -9,6 +10,7 @@
   </div>
 </template>
 <script>
+import NavBar from '@/components/NavBar'
 import ProductList from './components/ProductList.vue'
 import Cart from './components/Cart.vue'
 export default {
@@ -16,7 +18,7 @@ export default {
   data () {
     return {}
   },
-  components: { ProductList, Cart },
+  components: { ProductList, Cart, NavBar },
   methods: {}
 }
 </script>

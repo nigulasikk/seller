@@ -2,9 +2,7 @@
   <div class="msg">
       {{msg}}
       <span class="icon-font">&#xe6a9;</span>
-      <el-button>默认按钮</el-button>
-<el-button type="primary">主要按钮</el-button>
-<el-button type="text">文字按钮</el-button>
+     
   </div>
 </template>
 
@@ -13,7 +11,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '联系子页面'
+      msg: '联系子页面内容'
     }
   }
 }
