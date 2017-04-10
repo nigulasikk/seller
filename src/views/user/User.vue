@@ -23,6 +23,7 @@
       <br>4.请求&mock数据： 一个模块一个API文件（可照着 src/api/contactAPI.js 写）；可以将mock数据放在/static/mock文件夹下，这时候只需要将/src/common/domain.js 下 mock赋值为true 即可
       <br>5. ESLint（Standard）：项目配置了 ESLint（Standard）,写代码的时候注意书写规范 比如 a = 1 (等号左右都有空格)
       <br>6.iconfont字体：由于在App.vue全局引入了iconfont，所以只需要在页面写DOM即可调用到字体，如<span class="icon-font">&#xe6a9;</span>
+      <br>7.vuex的使用可参照src/store/contactDemo文件夹和src/store/contactDemoComplex文件夹。若模块较为简单，用前者的方式把action，mutations,getters等都放在一个文件夹，若模块比较复杂，则建议用后者的方式.
 
     </div>
   </div>
