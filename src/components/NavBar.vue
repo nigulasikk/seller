@@ -2,16 +2,16 @@
   <div>
     <el-menu :default-active="activeIndex2" class="el-menu-demo" mode="horizontal" @select="handleSelect">
     <router-link to="/">
-      <el-menu-item index="1">readMe(user)</el-menu-item>
+      <el-menu-item index="1">readMe(user demo页)</el-menu-item>
     </router-link>
     <router-link to="contact">
-      <el-menu-item index="2">https请求(联系人)</el-menu-item>
+      <el-menu-item index="2">https请求(contact demo页)</el-menu-item>
     </router-link>
     <router-link to="shoppingCart">
-      <el-menu-item index="3">vuex购物车</el-menu-item>
+      <el-menu-item index="3">vuex购物车（shoppingCart demo页）</el-menu-item>
     </router-link>
      <router-link to="helloWorld">
-      <el-menu-item index="4">helloWorld</el-menu-item>
+      <el-menu-item index="4">helloWorld </el-menu-item>
     </router-link>
     </el-menu>
   </div>

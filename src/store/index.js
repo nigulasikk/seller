@@ -5,6 +5,7 @@ import * as getters from './getters'
 import cart from './modules/cart'
 import products from './modules/products'
 import contacts from './modules/contactDemo/contactDemo'
+import contactsComplex from './modules/contactDemoComplex/contactDemoComplex'
 
 Vue.use(Vuex)
 
@@ -16,7 +17,8 @@ export default new Vuex.Store({
   modules: {
     cart,
     products,
-    contacts
+    contacts,
+    contactsComplex
   },
   strict: debug
 })

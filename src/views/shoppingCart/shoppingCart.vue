@@ -12,8 +12,8 @@
 </template>
 <script>
 import NavBar from '@/components/NavBar'
-import ProductList from './components/ProductList.vue'
-import Cart from './components/Cart.vue'
+import ProductList from './cpnts/ProductList.vue'
+import Cart from './cpnts/Cart.vue'
 export default {
   name: 'shoppingcart',
   data () {

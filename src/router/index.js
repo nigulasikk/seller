@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
 
-const HelloWorld = resolve => require(['@/pages/helloWorld/helloWorld'], resolve)
-const Contact = resolve => require(['@/pages/contact/contact'], resolve)
-const User = resolve => require(['@/pages/user/user'], resolve)
-const ShoppingCart = resolve => require(['@/pages/shoppingCart/shoppingCart'], resolve)
+const HelloWorld = resolve => require(['@/views/helloWorld/helloWorld'], resolve)
+const Contact = resolve => require(['@/views/contact/contact'], resolve)
+const User = resolve => require(['@/views/user/user'], resolve)
+const ShoppingCart = resolve => require(['@/views/shoppingCart/shoppingCart'], resolve)
 
 export default new Router({
   routes: [

@@ -16,7 +16,7 @@
 
 <script>
 import NavBar from '@/components/NavBar'
-import ContactDetail from './components/ContactDetail'
+import ContactDetail from './cpnts/ContactDetail'
 import ContactAPI from '@/api/contactAPI'
 
 export default {

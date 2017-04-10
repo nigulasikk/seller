@@ -5,6 +5,9 @@
       <hr>
       <el-button type="primary" @click="getContactsString">vuex请求数据</el-button>
      contactsString from vuex:{{contactsString}}
+     <hr>
+      <el-button type="primary" @click="getContactsStringComplex">vuex请求数据 复杂结构</el-button>
+     contactsStringComplex from vuex:{{contactsStringComplex}}
      <br>
      <br>
   </div>
@@ -17,11 +20,13 @@ export default {
   name: 'contactDetail',
   computed: {
     ...mapGetters({
-      contactsString: 'contactsString'
+      contactsString: 'contactsString',
+      contactsStringComplex: 'contactsStringComplex'
     })
   },
   methods: mapActions([
-    'getContactsString'
+    'getContactsString',
+    'getContactsStringComplex'
   ]),
   data () {
     return {
