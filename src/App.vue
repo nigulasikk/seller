@@ -10,5 +10,5 @@ export default {
 }
 </script>
 <style lang="less">
-@import 'assets/style/globalClass.less';
+@import 'assets/style/base.less';
 </style>

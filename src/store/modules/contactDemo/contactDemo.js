@@ -1,6 +1,7 @@
 import contactApiVuex from '../../../api/contactAPIForVuex'
-import * as types from '../../mutation-types'
 
+// mutations type
+const ADD_CONTACT = 'ADD_CONTACT'
 // initial state
 const state = {
   contactsString: ''
@@ -15,17 +16,15 @@ const getters = {
 const actions = {
   getContactsString ({ commit }) {
     contactApiVuex.getPersonInfo().then((res) => {
-      console.log(res.data.data.companyName)
-      commit(types.ADD_CONTACT, {res})
+      commit(ADD_CONTACT, {res})
     })
   }
 }
 
 // mutations
 const mutations = {
-  [types.ADD_CONTACT] (state, { res }) {
-    console.log(res.data.data.companyName)
-    state.contactsString = res.data.data.companyName
+  [ADD_CONTACT] (state, { res }) {
+    state.contactsString = res.data.message
   }
 }
 

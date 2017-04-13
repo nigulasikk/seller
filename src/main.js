@@ -4,14 +4,15 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './store'
-import ElementImporter from './common/element-import'
+import './common/element-import'
+import filters from './common/filters'
 
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  ElementImporter,
+  filters,
   store,
   template: '<App/>',
   components: { App }

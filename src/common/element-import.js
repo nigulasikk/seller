@@ -1,11 +1,13 @@
 import Vue from 'vue'
-import { Button, Select, Menu, Submenu, MenuItem, MenuItemGroup } from 'element-ui'
+import { Button, Select, Menu, Upload, Submenu, MenuItem, MenuItemGroup, Input, Message } from 'element-ui'
 Vue.use(Button)
 Vue.use(Select)
 Vue.use(Menu)
 Vue.use(Submenu)
 Vue.use(MenuItem)
 Vue.use(MenuItemGroup)
+Vue.use(Input)
+Vue.use(Upload)
 // import {
 //   Pagination,
 //   Dialog,
@@ -133,4 +135,4 @@ Vue.use(MenuItemGroup)
 // Vue.prototype.$confirm = MessageBox.confirm
 // Vue.prototype.$prompt = MessageBox.prompt
 // Vue.prototype.$notify = Notification
-// Vue.prototype.$message = Message
+Vue.prototype.$message = Message
